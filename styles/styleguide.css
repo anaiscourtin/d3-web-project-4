@@ -1,0 +1,64 @@
+/*#### Colors in the page   ####*/
+
+#color-1 {
+ background-color: #FFCC27;
+}
+
+#color-2 {
+ background-color: #A48150;
+}
+
+#color-3 {
+ background-color: #cd821d;
+}
+
+#color-4 {
+ background-color: #e6b220;
+}
+#color-5 {
+ background-color: #f8d931;
+}
+
+/*#### Color section in the style page   ####*/
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+
+}
+
+#colors li {
+  height : 160px;
+  width : 160px;
+  border-radius: 8px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+/*-- #### Styles Pour La construction des pages #### */
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ol li {
+  width : 260px;
+  margin : 6px;
+  background: #FFCC27;
+  text-align: center;
+}
+
+}
+li img {
+
+  width : 100%;
+}

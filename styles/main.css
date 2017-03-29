@@ -1,0 +1,82 @@
+/*#### Header elements   ####*/
+
+header {
+padding-top: 35px;
+  overflow: hidden;
+  background: #FFCC27;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+#logo {
+  width : 200px;
+  float: left;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 1em;
+  background: #A48150;
+  border-radius: 1em;
+  color: #fff;
+
+}
+
+/*#### Styles sur la video   ####*/
+
+video {
+  border : 2em solid #000;
+  border-radius: 1em;
+  display: block;
+  width : 600px;
+  margin: 2em auto;
+  margin-bottom: 125px ;
+}
+
+
+/*#### Styles pour les navigations dans les pages   ####*/
+
+.page-navigation-block {
+  padding: 0.5em;
+  background: #CD821D;
+  overflow: hidden;
+}
+
+.page-navigation-block a {
+  display: block;
+  max-width: 150px;
+  padding: 2em;
+  color: #fff;
+  font-size: 2em;
+}
+
+.next {
+  float: right;
+}
+
+.previous {
+  float: left;
+}
+#videodiv{
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+video{
+  width: 800px;
+  margin: 10px;
+  height: 500px;
+
+}
+a{
+  display: flex;
+  vertical-align: middle;
+  font-size: 25px;
+  border: none;
+}
